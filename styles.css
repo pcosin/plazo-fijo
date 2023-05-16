@@ -1,0 +1,23 @@
+#plazfijo {
+  width: 375px;
+  height: 295px;
+  color: rgb(63, 223, 129);
+  margin-left: 30%;
+  margin-top: 10%;
+  padding-left: 90px;
+}
+
+#meses,
+#monto,
+#tasaDeInteres {
+  width: 175px;
+  height: 20px;
+}
+
+#tasaDeInteres {
+  margin-left: 2px;
+}
+
+h1 {
+  font-size: 40px;
+}

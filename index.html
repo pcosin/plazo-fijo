@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="#">
+    <title>Plazo Fijo</title>
+</head>
+<body>
+    <div id="plazfijo">
+        <h1>Calculador de Plazo Fijo</h1>
+        <p>Monto: $<input id="monto" type="number" min="1" max="5000000" ></p>
+        <p>Tasa de Interes: %<input id="tasaDeInteres" min="0" max="100" value="97" step=".1" ></p>
+        <p>dias: <input id="dias" type="number" min="1" max="300" value="30" step="1" ></p>
+        <button onclick="calcularPlazoFijo()">Calcular</button>
+        <h2 id="intereses"></h2>
+        <h2 id="montoFinal"></h2>
+
+    <script src="./index.js"></script>
+</body>
+</html>
